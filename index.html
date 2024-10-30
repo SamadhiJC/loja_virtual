@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Loja Virtual - Desktop</title>
+</head>
+<body>
+    <header>
+        <h1>Minha Loja Virtual</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+        <div id="carrinho">
+            Itens no carrinho: <span id="carrinho-contagem">0</span>
+        </div>
+    </header>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="coluna-imagem">
+                <img src="3b5342113105d1e4c6b956e6575639cd.webp" alt="Imagem da loja">
+            </div>
+            <div class="coluna-texto">
+                <h2>Sobre a Loja</h2>
+                <p>Bem-vindo à nossa loja! Oferecemos os melhores produtos para você.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <h2>Nossos Produtos</h2>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="8.webp" alt="Tenis da adidas esportivo">
+                <h3>tenis esportivo</h3>
+                <p>tenis confortavel para fazer exercicios </p>.</p>
+                <button onclick="adicionarAoCarrinho('Produto 1')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="39W-3127-056_zoom1.webp" alt="tenis">
+                <h3>tenis esportivo 2</h3>
+                <p>tenis para fazer exercicios,conforto para seus pés </p>
+                <button onclick="adicionarAoCarrinho('tenis esportivo 2 ')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="a1-2.webp" alt="tenis esportivo 3">
+                <h3>tenis esportivo 3</h3>
+                <p>tenis para fazer exercicios , conforto para seu pé.</p>
+                <button onclick="adicionarAoCarrinho('tenis esportivo 3')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="tenis-new-balance-fuelcell-supercomp-trainer-v2-masculino-2.webp" alt="tenis esportivo 4 ">
+                <h3>tenis esportivo 4</h3>
+                <p>conforto paara seus pés, exercicios e corridas.</p>
+                <button onclick="adicionarAoCarrinho('Produto 4')">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Minha Loja Virtual</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
